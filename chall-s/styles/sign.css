@@ -1,0 +1,211 @@
+* {
+    font-family: 'Poppins';
+}
+body {
+    background-color: #eec0c6;
+    background-image: linear-gradient(130deg, #eec0c6 0%, #e58c8a 94%);
+}
+
+.registration-form-container{
+    width:80%;
+    box-sizing: border-box;
+    margin:auto;
+    margin-top:25px;
+    text-align: center;
+}
+.registration-form-container .text-input-label {
+    display: block;
+    text-align: start;
+    color: var(--darkgrey);
+    font-size: 11px;
+}
+.registration-form-container .input-text {
+    height:30px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid var(--grey);
+    border-radius: 8px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+.form-group label {
+    color: grey;
+}
+.btn{
+    display: block;
+    width: 100px;
+    height: 34px;
+    text-align: center;
+    border: 0;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.sign-up-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:90%;
+}
+.btn-primary {
+    background-color:#6E6CE0 ;
+    color: white;
+    margin-bottom: 15px;
+}
+.btn-primary:hover {
+    opacity: 85%;
+}
+.sign-up-form-container {
+    width:80%;
+    min-height: 300px;
+    box-sizing: border-box;
+    text-align: center;
+    border-right-style:solid; 
+    border-right-width: 1px;
+    border-image: radial-gradient(grey, white) 1;
+    
+}
+.sign-up-form-title {
+    font-size:9px;
+    font-weight: bold;
+    color: grey;
+}
+.sign-up-form-title h1:hover {
+    border-bottom-style:solid; 
+    border-bottom-width: 1px;
+    border-image: radial-gradient(#6E6CE0, #c0bfdf) 1;
+    color:#6E6CE0;
+}
+
+.social-sign-up-container {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    width:80%;
+    min-height: 300px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.social-sign-up p {
+    color:grey;
+    font-size: 11px;
+    
+}
+.social-option {
+    color:#6E6CE0;
+    font-size: 14px;
+    width:60%;
+    height:35px;
+    margin: 10px auto;
+    border: 1.5px solid #6E6CE0;
+    border-radius: 8px;
+    line-height: 40px;
+}
+.social-option img {
+    margin: 0 10px;
+    width:25px;
+    height:25px;
+}
+
+
+  
+@media screen and (max-width: 992px) {
+    .social-option {
+        font-size: 12px;
+        width:50%;
+        height:30px;
+        margin: 15px auto;
+        border: 1.5px solid var(--green);
+        border-radius: 10px;
+        line-height: 30px;
+    }
+    .social-option img {
+        margin: 0 5px;
+        width:10px;
+        height:20px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .social-option {
+        font-size: 8px;
+        width:40%;
+        height:20px;
+        padding-right: 4px;
+        margin: 10px auto;
+        border: 1.5px solid orange;
+        border-radius: 7px;
+        line-height: 20px;
+    }
+    .social-option img {
+        margin: 0 5px;
+        width:10px;
+        height:10px;
+    }
+    .flower img{
+        width:70%;
+    }
+  }
+  @media screen and (max-width: 576px) {
+      
+    .social-option {
+        font-size: 6px;
+        width:45%;
+        height:15px;
+        margin: 4px auto;
+        border: 1.5px solid darkred;
+        border-radius: 6px;
+        line-height: 20px;
+    }
+    .social-option img {
+        margin: 0;
+        width:10px;
+        height:10px;
+    }
+    .flower img{
+        width:60%;
+    }
+   
+  }
+
+
+.terms {
+    width:60%;
+    margin: auto;
+}
+.terms p {
+    color: grey;
+    font-size: 10px;
+}
+.terms span {
+    text-decoration: underline;
+}
+.parent-sign-up-form { 
+    height:auto;
+    margin: auto auto;
+    border-radius: 20px;
+    
+}
+.main-container {
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width:45%;
+    height:auto;
+    box-shadow: 0 0 0 1.5em var(--grey);
+    border-radius: 20px;
+    opacity: 85%;
+}
+.flower img{
+    width:80%;
+}
+.ornament {
+    position:absolute;
+    bottom:50px;
+}

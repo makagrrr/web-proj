@@ -1,0 +1,91 @@
+* {
+    background-color: #f3f5f7;
+}
+
+.bid-image {
+    line-height: 30px;
+    padding: 80px 30px;
+}
+.bid-image img {
+    border-radius: 80px;
+    width:90%;
+}
+.dots img{
+    padding:20px;
+    border: 1px solid var(--darkgrey);
+    border-radius: 20px;
+    width:90px;
+    background-color: white;
+}
+.fav {
+    margin-right: 20px;
+}
+.fav img{
+    padding:20px;
+    border: 1px solid var(--darkgrey);
+    border-radius: 20px;
+    width:90px;
+    background-color: white;
+}
+.offer-container {
+    padding: 10px 70px;
+    background-color: white;
+    border-radius: 80px 80px 0px 0px ;
+    width:100%;
+}
+.offer-image {
+    background-color: transparent;
+}
+
+.offer-image img{
+    width:200px;
+    border-radius: 50%;
+}
+.offer-information {
+    line-height: 40px;
+    margin-left: 100px;
+    background-color: transparent;
+}
+.offer-information p {
+    text-align: start;
+    color: var(--darkgrey);
+    font-size: 40px;
+    background-color: transparent;
+}
+.offer-information span {
+    font-size: 40px;
+    background-color: transparent;
+    color: var(--green);
+    font-weight: bold;
+}
+.offer-information h1 {
+    font-size: 60px;
+    background-color: transparent;
+}
+.description {
+    padding: 10px 70px;
+    background-color: white;
+    width:100%;
+}
+.description p {
+    text-align: start;
+    color: var(--darkgrey);
+    font-size: 32px;
+    background-color: transparent;
+}
+.description h1 {
+    font-size: 42px;
+    background-color: transparent;
+}
+.bid-button  p{
+    background-color: transparent;
+}
+.make-button p {
+    background-color: transparent;
+}
+.bid-offer-container {
+    padding: 10px 70px;
+    background-color: white;
+    width:100%;
+    padding-bottom: 150px;
+}

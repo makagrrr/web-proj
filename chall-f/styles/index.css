@@ -1,0 +1,142 @@
+* {
+    font-family: 'Manrope';
+}
+
+.background img {
+    width: 100%;
+}
+
+.intro-box {
+    position: absolute;
+    margin-top: -100px;
+    width: 100%;
+    background-color: #FFFFFF;
+    border-radius: 80px 80px 0px 0px ;
+}
+.intro {
+    padding: 6em;
+    
+}
+.intro h1, p{
+    text-align: center;
+}
+.intro h1 {
+    font-weight: 600;
+    font-size: 52px;
+}
+.intro p {
+    font-size: 40px;
+}
+.dot-box {
+    display: inline-block;
+    padding: 100px;
+}
+.explore {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.head {
+    margin-top: 80px;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding:30px 10%;
+}
+.head-text {
+    font-weight: 600;
+    padding-left: 20px;
+    font-size: 60px;
+}
+.head .search {
+    padding-right:20px;
+}
+.categories-container {
+    margin: 40px 40px;
+}
+.categories-container h1 {
+    font-size: 60px;
+}
+.categories-container a {
+    font-size: 45px;
+    text-decoration: none;
+    color: var(--darkgrey);
+}
+.categories a:hover {
+    background-color: var(--green);
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+}
+
+.featured-container {
+    margin: 0 10%;
+    background-color: var(--lightgrey);
+    width: 80%;
+    height:auto;
+    border-radius: 80px;
+}
+.featured-container img {
+    border-radius: 80px;
+    width:100%;
+}
+
+.featured-author {
+    line-height: 30px;
+    padding: 30px 30px 150px 30px;
+}
+.featured-container p{
+    font-size: 38px;
+    color: var(--darkgrey);
+
+}
+.featured-container h1 {
+    margin:0;
+    text-align: end;
+    font-size: 48px;
+    font-size: bolder;
+}
+
+.bid-container {
+    margin-left:18%;
+    margin-right:18%;
+    margin-top: -8%;
+}
+.featured-author-left p{
+    text-align: left;
+}
+.seller-container {
+    width:100%;
+    height: auto;
+    border-radius: 60px;
+    background-color: var(--lightgrey);
+    margin-bottom: 70px;
+}
+.seller-image img {
+    margin:40px 40px;
+    width:170px;
+    height:230px;
+    border-radius: 60px  ;
+}
+.seller-information {
+    margin-right: 150px;
+}
+.seller-information p {
+    font-size: 40px;
+    color: var(--darkgrey);
+    text-align: start;
+}
+.seller-information h1 {
+    font-size: 53px;
+}
+.follow {
+    margin-right: 80px;
+}
+.follow p {
+    font-size: 52px;
+    color: var(--green);
+    font-weight: bold;
+}
+.bid-button  p{
+    background-color: transparent;
+}

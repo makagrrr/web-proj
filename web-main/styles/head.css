@@ -1,0 +1,34 @@
+@import './styles/variables.css';
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a {
+    margin: 0 10px;
+    color: #59564F;
+    font-size: 24px;
+    text-decoration: none;
+    transition: all 0.3 ease;
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    background-color: #E0EEEE;
+    padding:30px 10%;
+}
+header img {
+    width:28px;
+}
+.name{
+    color: #3D6177;
+    font-weight: bold;
+    letter-spacing: 4px;
+    cursor: pointer;
+}
+a:hover > .social {
+    background-color: #C5DDDD;
+}

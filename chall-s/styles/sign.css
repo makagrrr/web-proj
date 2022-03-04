@@ -48,7 +48,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width:90%;
 }
 .btn-primary {
     background-color:#6E6CE0 ;
@@ -87,7 +86,6 @@ body {
     flex-direction: column;
     align-items: center;
     width:80%;
-    min-height: 300px;
     box-sizing: border-box;
     text-align: center;
 }
@@ -111,67 +109,6 @@ body {
     width:25px;
     height:25px;
 }
-
-
-  
-@media screen and (max-width: 992px) {
-    .social-option {
-        font-size: 12px;
-        width:50%;
-        height:30px;
-        margin: 15px auto;
-        border: 1.5px solid var(--green);
-        border-radius: 10px;
-        line-height: 30px;
-    }
-    .social-option img {
-        margin: 0 5px;
-        width:10px;
-        height:20px;
-    }
-  }
-  @media screen and (max-width: 768px) {
-    .social-option {
-        font-size: 8px;
-        width:40%;
-        height:20px;
-        padding-right: 4px;
-        margin: 10px auto;
-        border: 1.5px solid orange;
-        border-radius: 7px;
-        line-height: 20px;
-    }
-    .social-option img {
-        margin: 0 5px;
-        width:10px;
-        height:10px;
-    }
-    .flower img{
-        width:70%;
-    }
-  }
-  @media screen and (max-width: 576px) {
-      
-    .social-option {
-        font-size: 6px;
-        width:45%;
-        height:15px;
-        margin: 4px auto;
-        border: 1.5px solid darkred;
-        border-radius: 6px;
-        line-height: 20px;
-    }
-    .social-option img {
-        margin: 0;
-        width:10px;
-        height:10px;
-    }
-    .flower img{
-        width:60%;
-    }
-   
-  }
-
 
 .terms {
     width:60%;
@@ -200,7 +137,7 @@ body {
     height:auto;
     box-shadow: 0 0 0 1.5em var(--grey);
     border-radius: 20px;
-    opacity: 85%;
+    opacity: 80%;
 }
 .flower img{
     width:80%;
@@ -208,4 +145,60 @@ body {
 .ornament {
     position:absolute;
     bottom:50px;
+}
+.help {
+    text-align: center;
+    width:200px;
+    height:60px;
+    position:absolute;
+    bottom:10px;
+    left:0;
+    background-color: #e58c8a;
+    border-radius: 15px;
+    opacity: 80%;
+    animation: help 3s ease-in 2s 2;
+}
+@keyframes help {
+    0%   {background-color:#e58c8a; left:0px; bottom:10px;}
+    25%  {background-color:#eec0c6; right:100px; bottom:40px;}
+    100% {background-color:#e58c8a; left:0px; bottom:10px;}
+}
+@media screen and (max-width: 768px) {
+    .parent-sign-up-form {
+        display:block;
+        text-align: center;
+    }
+    .sign-up-form-container {
+        width:100%;
+        border:none;
+    }
+
+    .social-sign-up-container {
+        width:100%;
+        margin:0;
+    }
+    .flower {
+        display: none;
+    }
+    .help {
+        width:150px;
+        height:60px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .social-option img {
+        display: none;;
+    }
+    .social-option {
+        font-size: 10px;
+        width:45%;
+        height:22px;
+        margin: 4px auto;
+        border-radius: 6px;
+        line-height: 20px;
+    }
+    .help {
+        width:110px;
+        height:60px;
+    }
 }

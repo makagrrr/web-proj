@@ -1,3 +1,7 @@
+body {
+    margin:0;
+}
+
 .explore-button {
     width: 80%;
     height:180px;
@@ -21,7 +25,7 @@
     color: white;
 }
 .make-button {
-    width: 400px;
+    width: auto;
     height: auto;
     background-color: var(--green);
     color:white;
@@ -34,7 +38,7 @@
     color:white;
 }
 .bid-button {
-    width: 400px;
+    width: auto;
     height: auto;
     background-color: var(--blackish);
     color:white;
@@ -126,9 +130,9 @@
 
 
 .crypto img {
-    padding:10px 20px;
+    padding:20px 30px;
     border-radius: 50%;
-    width:80px;
+    width:40px;
     background-color: var(--green);
 }
 

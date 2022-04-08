@@ -1,0 +1,144 @@
+.f-60 {
+    font-size: 60px;
+    line-height: 74px;
+    margin: 0 0 19px 0;
+}
+.f-52-h-50 {
+    font-size: 42px;
+    font-weight: 800;
+    line-height: 50px;
+}
+.f-42 {
+    font-size: 42px;
+    font-weight: 800;
+    line-height: 60px;
+}
+.f-40 {
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 48px;
+}
+.f-40-h-60 {
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 60px;
+}
+.f-38 {
+    font-size: 38px;
+    font-weight: 800;
+    line-height: 60px;
+}
+.f-36 {
+    font-size: 36px;
+    line-height: 56px;
+    font-weight: 800;
+}
+.f-34 {
+    font-size: 34px;
+    line-height: 46px;
+    font-weight: 800;
+}
+.f-24 {
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 33px;
+}
+.f-24-h-32 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32.78px;
+}
+.f-20 {
+    color: var(--text-grey);
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 500;
+}
+.f-20-w-800-h-36 {
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 800;
+}
+.f-20-w-800-h-30 {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 800;
+}
+.f-20-w-800-h27{
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 27.32px;
+}
+.f-19 {
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 30px;
+    color: var(--text-grey);
+}
+.f-18 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+}
+.f-18-grey {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    color: var(--text-grey);
+}
+.f-18-w-800 {
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 30px;
+}
+.f-18-h-24 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24.59px;
+}
+.f-16 {
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 30px;
+}
+.f-16-grey {
+    color: var(--text-grey);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+.f-16-h-30-grey {
+    color: var(--text-grey);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+}
+.f-14 {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    color: var(--text-grey);
+}
+.f-14-purple {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17.33px;
+    color: var(--purple);
+}
+.f-14-clear {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17.33px;
+}
+.f-14-h-19 {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 19.12px;
+    color: var(--user-grey);
+}
+.f-12-grey {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16.39px;
+    color: var(--user-grey);
+}

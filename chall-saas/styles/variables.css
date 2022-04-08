@@ -1,0 +1,20 @@
+:root {
+    --purple : #3734A9;
+    --orange_start : #FF7F5C;
+    --green : #22D497;
+    --darkgreen : #009F9D;
+    --crypto-grey: #F8F9FD;
+    --border-grey: #DFDFDF;
+    --bottom-border: #E5E5EA;
+    --blue : #0091D0;
+    --number-border:#E8F2FF;
+    --red_see_more : #FF6160;
+    --green_read_more : #01966B;
+    --orange_review : #FF7F5C;
+    --text-grey : #64607D;
+    --light-grey: #DFE4F1;
+    --sign-background: #F2F3F4;
+    --sign-text: #BBB5E0;
+    --subcribe-background: #F9F9F9;
+    --user-grey: #6C6C6C;
+}

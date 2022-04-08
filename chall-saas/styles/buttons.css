@@ -1,0 +1,121 @@
+.btn-start {
+    width: 137px;
+    height: 52px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    background-color: var(--purple);
+    color:white;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.btn-process {
+    width: 162px;
+    height: 60px;
+    border-radius: 47px;
+    border: none;
+    text-align: center;
+    background-color: var(--purple);
+    color:white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.btn-play {
+    width: 60px;
+    height: 60px;
+    border-radius: 47px;
+    border: none;
+    text-align: center;
+    background-color: var(--green);
+    color:white;
+    cursor: pointer;
+}
+.btn-get-started {
+    width: 356px;
+    height: 60px;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    background-color: var(--orange_start);
+    color:white;
+    cursor: pointer;
+}
+.btn-get-started-long {
+    width: 371px;
+    height: 60px;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    background-color: var(--orange_start);
+    color:white;
+    cursor: pointer;
+}
+.btn-check {
+    width: 181px;
+    height: 60px;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    background-color: var(--purple);
+    color:white;
+    cursor: pointer;
+}
+.btn-contact {
+    width: 166px;
+    height: 42px;
+    border-radius: 6px;
+    border: none;
+    text-align: center;
+    background-color: var(--blue);
+    color:white;
+    margin-top: 33px;
+    cursor: pointer;
+}
+.btn-subscribe {
+    width: 149px;
+    height: 52px;
+    border: none;
+    text-align: center;
+    background-color: var(--purple);
+    color:white;
+    cursor: pointer;
+}
+.btn-previous {
+    width: 34px;
+    height: 34px;
+    border-radius: 67px;
+    border: none;
+    text-align: center;
+    background-color: var(--purple);
+    color:white;
+    cursor: pointer;
+}
+.btn-platform {
+    width: 259px;
+    height: 60px;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    background-color: var(--purple);
+    color:white;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 21.86px;
+    margin-top:42px;
+    cursor: pointer;
+}
+.btn-blog {
+    width: 195px;
+    height: 60px;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    background-color: var(--purple);
+    color:white;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 21.86px;
+    cursor: pointer;
+}

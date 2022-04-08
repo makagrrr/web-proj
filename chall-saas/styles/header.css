@@ -1,0 +1,15 @@
+
+.navigation {
+    width:1202px;
+    height:52px;
+    margin: 28px auto 0 auto;
+}
+.navigation-logo {
+    font-size: 18px;
+}
+.nav-sign {
+    width: 231px;
+}
+.navigation-list {
+    width: 323px;
+}

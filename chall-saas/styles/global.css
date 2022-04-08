@@ -1,0 +1,17 @@
+* {
+    font-family: 'Manrope' ;
+}
+body {
+    background-image: url(../assets/icons/bc.svg);
+    background-size:auto;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+p, h1, h2, h3, h4, h5, h6, span {
+    margin: 0;
+}

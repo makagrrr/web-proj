@@ -2,6 +2,12 @@
 .d-flex {
     display: flex;
 }
+.f-column {
+    flex-direction: column;
+}
+.d-grid {
+    display: grid;
+}
 .justify-content-between {
     justify-content: space-between;
 }
@@ -17,12 +23,6 @@
 .align-items-center {
     align-items: center;
 }
-.d-grid {
-    display: grid;
-}
-.grid-6 {
-    grid-template-columns: auto auto auto auto auto auto;
-}
 .grid-2 {
     grid-template-columns: auto auto;
 }
@@ -32,6 +32,6 @@
 .grid-4 {
     grid-template-columns: auto auto auto auto;
 }
-.f-column {
-    flex-direction: column;
+.grid-6 {
+    grid-template-columns: auto auto auto auto auto auto;
 }

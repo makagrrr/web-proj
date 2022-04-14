@@ -1,0 +1,87 @@
+.reason-item-dark-medium {
+    width:297px;
+    height: 417px;
+    background-color: var(--container-background-grey-dark);
+    border-radius: 40px;
+    row-gap: 18px;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+}
+.reason-item-dark-large {
+    width:297px;
+    height: 504px;
+    background-color: var(--container-background-grey-dark);
+    border-radius: 40px;
+    row-gap: 18px;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+}
+.reason-item-dark-small {
+    width:297px;
+    height: 296px;
+    background-color: var(--container-background-grey-dark);
+    border-radius: 40px;
+    row-gap: 18px;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+}
+
+
+.reason-item-gradient-medium {
+    width:297px;
+    height: 417px;
+    background: linear-gradient( var(--shadow-purple) 0% , var(--shadow-pink) 100%);    
+    border-radius: 40px;
+}
+.reason-item-gradient-large {
+    width:297px;
+    height: 504px;
+    background: linear-gradient( var(--shadow-green) 0% , var(--shadow-blue) 100%);
+    border-radius: 40px;
+}
+.reason-item-gradient-small {
+    width:297px;
+    height: 296px;
+    background: linear-gradient(  var(--shadow-orange) 0% , var(--shadow-orange-dark) 100%);
+    border-radius: 40px;
+}
+
+
+
+.subscription-item-subcontainer {
+    width:343px;
+    height: 502px;
+    background-color: var(--container-background-grey);
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+.subscription-gradient-purple {
+    height:10px;
+    background:linear-gradient( to right, var(--shadow-purple), var(--shadow-pink) ); 
+}
+.subscription-gradient-blue {
+    width: 343px;
+    height:10px;
+    background:linear-gradient( to right, var(--shadow-green) 0% , var(--shadow-blue) 100%);
+}
+.subscription-gradient-orange {
+    width: 343px;
+    height:10px;
+    background: linear-gradient( to right, var(--shadow-orange) 0% , var(--shadow-orange-dark) 100%);
+}
+
+.btn-try {
+    width: 155px;
+    height: 61px;
+    border-radius: 20px;
+    background:linear-gradient( to right, var(--button-purple), var(--button-pink) ); 
+    text-align: center;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+    cursor: pointer;
+}

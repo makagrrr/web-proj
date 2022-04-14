@@ -1,0 +1,70 @@
+.f-32-w-900 {
+    font-size: 32px;
+    font-weight: 900;
+}
+.f-32-w-800 {
+    font-size: 32px;
+    font-weight: 800;
+}
+.f-24-w-500 {
+    font-size: 24px;
+    font-weight: 500;
+}
+.f-24-w-700 {
+    font-size: 24px;
+    font-weight: 700;
+}
+.f-24-w-600 {
+    font-size: 24px;
+    font-weight: 600;
+}
+.f-20-w-400 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24.38px;
+}
+.f-20-w-500 {
+    font-size: 20px;
+    font-weight: 500;
+}
+.f-64-w-800 {
+    font-size: 64px;
+    font-weight: 800;
+}
+.f-64-w-800-purple {
+    font-size: 64px;
+    font-weight: 800;
+    color: var(--purple);
+}
+.f-40-w-900 {
+    font-size: 40px;
+    font-weight: 900;
+}
+.f-16-w-800 {
+    font-size: 16px;
+    font-weight: 800;
+}
+.f-16-w-400 {
+    font-size: 16px;
+    font-weight: 400;
+}
+.f-16-w-500 {
+    font-size: 16px;
+    font-weight: 500;
+}
+.f-14-w-800 {
+    font-size: 14px;
+    font-weight: 800;
+}
+.f-14-w-500 {
+    font-size: 14px;
+    font-weight: 500;
+}
+.f-14-w-300 {
+    font-size: 14px;
+    font-weight: 300;
+}
+.f-13-w-300 {
+    font-size: 13px;
+    font-weight: 300;
+}

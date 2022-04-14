@@ -1,0 +1,21 @@
+
+.navigation-container {
+    width: 100%;
+    height: 133px;
+    background-color: var(--header-black); 
+}
+.navigation {
+    width: 1121px;
+    margin-left: 157px;
+    margin-right: 162px;
+}
+
+.nav-sign {
+    width: 231px;
+}
+.navigation-list {
+    width: 563px;
+}
+.nav-item {
+    column-gap: 5px;
+}
